@@ -2,16 +2,18 @@
 header{
     border: 3px;
     padding: 0px;
+  
+    
     
 }
 
 body{
     background-size: cover;
-    background-color: rgb(6,2,61);
+    background-color: beige;
 }
 
 a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 7px;
     
@@ -22,25 +24,32 @@ ul{
     margin: 0px;;
     padding:0px;
     overflow:hidden;
-    background-color:rgb(62, 59, 107);
+    background-color: rgb(135, 88, 88);
+   
+    align-items: center;
+
     
     
 }
-li{
-    float:left;
-    
+.nav_links{
+   display:flex;
+   border: 3px solid black;
+   font-size: large;
+
+   
+   
 }
 
 li a{
     display: block;
-    color:white;
+    color:rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
     
 }
 
 li a:hover{
-    color: red
+    color: rgb(255, 53, 53)
 }
 
 header{
@@ -51,3 +60,4 @@ header{
     align-items: center;
     
 }
+

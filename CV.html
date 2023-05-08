@@ -12,8 +12,12 @@
 
 <style>
 
-    .WE{
+    .workexp{
         text-align: center;
+        border:3px solid black;
+        background-color: white;
+        margin: 1%;
+        border: 3px solid black;
         
     }
 
@@ -24,7 +28,8 @@
     overflow:hidden;
     background-color: white;
     text-align: center;
-    color:black
+    color:black;
+   
     
     
 }
@@ -32,9 +37,12 @@
 
 .responsible{
     background-color:white;
-    display:block;
+    display:flex;
+    flex-direction: row;
+    align-content: center;
     font-size: large;
     color:black;
+    
     
     
     
@@ -49,6 +57,11 @@
     color:black;
     
    
+
+}
+
+.workexp,.nme1{
+    color:rgb(3, 3, 3);
 
 }
 
@@ -69,24 +82,21 @@
    <li><a href="homepage.html">Home</a></li>
        <li><a href="portfolio.html">Portfolio</a></li>
        <li><a href="CV.html">Cirriculum Vitae</a></li>
-       <li style="float:right"><a class="active"
+       
         
-        
-
-
-       </header>
+        </header>
  </ul>       
 
 </nav>
 
 <body>
-    <header>
+    <header class="nme1">
     <h1>George Alvarez</h1>
     <P> Email: Georgealvarez794@gmail.com | Phone: (646) 256-1550</P>
     </header>
-    <section>
+    <section class= "workexp">
 
-        <div class="WE"><h2>Work Experience</h2></div>
+        <div class = "WE"><h2>Work Experience</h2>
 
         <div class="my_resume"> <h3>Administrative Coordinator</h3>
             <p>Center for Autism and Related Disorders, Inc. - New York, NY January 2022 to April 2023</p>
@@ -109,14 +119,12 @@
             <br><li>Implemented behavior management treatment as directed by the supervisor.</li>
             <br><li>Collect and record data on patient behavior.</li>
         </ul>
-    </section>
-    <section>
+   
 <div class="WE"><h2>Education</h2></div>
 <div class="my_resume"><h3>Bachelor's in Psychology</h3>
     <p>Queens College- Flushing, NY</p>
     <p>August 2015 to May 2019</p>
-    </section>
-    <section>
+   
         <div class="WE"><h2>Languages</h2></div>
         <ul class="ensp">
             <li>English/</li>
