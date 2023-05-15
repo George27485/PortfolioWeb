@@ -2,31 +2,37 @@
 header{
     border: 3px;
     padding: 0px;
+    margin:10%;
   
     
     
 }
 
 body{
+
     background-size: cover;
-    background-color: beige;
+    background-image: url(bg5.jpg);
+    
+
 }
+
 
 a{
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 7px;
+    padding: 5px;
     
 }
 
 ul{
     list-style-type: none;
-    margin: 0px;;
+    margin: 0px;
     padding:0px;
     overflow:hidden;
-    background-color: rgb(135, 88, 88);
-   
-    align-items: center;
+    background-color: rgb(31, 180, 203);
+   justify-content: space-evenly;
+    left:0;
+    margin-bottom: 2%;
 
     
     
@@ -35,13 +41,18 @@ ul{
    display:flex;
    border: 3px solid black;
    font-size: large;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   padding:1%
+   
 
    
    
 }
 
 li a{
-    display: block;
+    display: flex;
     color:rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
@@ -60,4 +71,3 @@ header{
     align-items: center;
     
 }
-
